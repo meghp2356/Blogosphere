@@ -1,0 +1,53 @@
+.slug{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+}
+.fimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin: 9px;
+}
+
+.slug label{
+    margin: 9px;
+    margin-left: 20px;
+}
+
+.slug input,.fimage input{
+    /* margin: 9px; */
+    background: rgb(211 201 201);
+}
+
+.post form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+.fimage select{
+    margin: 6px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.post button{
+    width: 9rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .slug {
+       flex-direction: column;
+    }
+    .fimage{
+        flex-direction: column;
+    }
+ 
+   }

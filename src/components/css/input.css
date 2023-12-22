@@ -1,0 +1,15 @@
+input{
+    padding: 9px;
+    border-radius: 7px;
+    border: none;
+    margin: 2px;
+    width: 100%;
+}
+
+input:focus{
+    border-color: 2px solid aqua;
+    outline: red;
+    outline-color: aqua;
+    outline-width: 20px;
+}
+

@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home{
+    background: url('https://images.pexels.com/photos/261579/pexels-photo-261579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.home > h1 , h2{
+    color: azure;
+}
+
+.home h1{
+    font-size: 3rem;
+}
+
+.home h2{
+    text-align: center;
+}
+
+.postList{
+    display: flex; 
+    flex-direction: row;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

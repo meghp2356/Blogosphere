@@ -1,0 +1,7 @@
+.search{
+    display: flex;
+    justify-content: center;
+    background: #dfd3d3;
+    height: 100px;
+    align-items: center;
+}

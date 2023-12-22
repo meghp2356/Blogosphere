@@ -1,0 +1,49 @@
+.layoutImage{
+    display: flex;
+    height: 60%;
+    width: inherit;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.layoutImage img{
+    width: inherit;
+    transition: scale;
+    transition-duration: 15s;
+}
+
+.layoutImage img:hover{
+    cursor: pointer ;
+    transform: scale(1.5);
+}
+
+.layoutContainer{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background: gainsboro;
+    border-radius:20px ;
+    height: 500px;
+    margin:12px;
+    padding: 8px;
+    box-shadow: 10px 0px 80px black;
+}
+
+.layoutContainer h1{
+    margin: 12px;
+
+}
+
+.layoutButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layoutButtons button{
+    width: 10rem;
+    
+}
